@@ -1,0 +1,17 @@
+{
+  "name": "passport-myanimelist",
+  "version": "1.0.0",
+  "description": "Passport strategy for authentication with MyAnimeLazer using the OAuth 2.0 API",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "node test/example.js"
+  },
+  "repository": "https://github.com/prince-ao/passport-myanimelist",
+  "author": "prince-ao <princead@tutanota.com>",
+  "license": "MIT",
+  "dependencies": {
+    "cross-fetch": "^3.1.4",
+    "express": "^4.17.1",
+    "passport-oauth2": "^1.6.1"
+  }
+}
