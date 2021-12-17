@@ -1,4 +1,4 @@
-<p align="center"><img src="assets/oauth.png" width="150px" /></p>
+<p align="center"><img src="assets/oauth.png" width="200px" /></p>
 
 # myanimelist-oauth
 
