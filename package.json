@@ -1,6 +1,6 @@
 {
 	"name": "myanimelist-oauth",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "A simple Oauth 2.0 library for myanimelist API",
 	"main": "lib/index.js",
 	"scripts": {
@@ -20,5 +20,13 @@
 	},
 	"dependencies": {
 		"cross-fetch": "^3.1.4"
-	}
+	},
+	"keywords": [
+		"myanimelist",
+		"MAL",
+		"oauth",
+		"oauth2.0",
+		"anime",
+		"manga"
+	]
 }
