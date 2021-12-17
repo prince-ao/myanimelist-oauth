@@ -1,18 +1,24 @@
 {
-	"name": "passport-myanimelist",
+	"name": "myanimelist-oauth",
 	"version": "1.0.0",
-	"description": "Passport strategy for authentication with MyAnimeLazer using the OAuth 2.0 API",
+	"description": "A simple Oauth 2.0 library for myanimelist API",
 	"main": "lib/index.js",
 	"scripts": {
-		"test": "node test/example.js"
+		"test": "node test/example.js",
+		"build-umd": "rollup lib/index.js --file dist/bundle.umd.js --format umd --name malOauth",
+		"build-es": "rollup lib/index.js --file dist/bundle.es.js --format es --name malOauth",
+		"build-amd": "rollup lib/index.js --file dist/bundle.amd.js --format amd --name malOauth",
+		"build-iife": "rollup lib/index.js --file dist/bundle.iife.js --format iife"
 	},
-	"repository": "https://github.com/prince-ao/passport-myanimelist",
+	"repository": "https://github.com/prince-ao/myanimelist-oauth",
 	"author": "prince-ao <princead@tutanota.com>",
 	"license": "MIT",
-	"dependencies": {
-		"cross-fetch": "^3.1.4",
+	"devDependencies": {
 		"express": "^4.17.1",
-		"node-fetch": "^3.1.0",
-		"passport-oauth2": "^1.6.1"
+		"dotenv": "^10.0.0",
+		"rollup": "^2.61.1"
+	},
+	"dependencies": {
+		"cross-fetch": "^3.1.4"
 	}
 }
